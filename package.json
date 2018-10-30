@@ -1,0 +1,23 @@
+{
+  "name": "package",
+  "version": "0.0.1",
+  "description": "pack",
+  "main": "package.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon derver.js"    
+  },
+  "keywords": [
+    "package"
+  ],
+  "author": "Yuri",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.5"
+  }
+}
