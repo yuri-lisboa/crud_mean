@@ -1,12 +1,11 @@
 {
-  "name": "package",
+  "name": "projetos",
   "version": "0.0.1",
   "description": "pack",
-  "main": "package.js",
+  "main": "packaage.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js",
-    "dev": "nodemon derver.js"    
+    "dev": "nodemon server.js"
   },
   "keywords": [
     "package"
@@ -14,8 +13,10 @@
   "author": "Yuri",
   "license": "MIT",
   "dependencies": {
+    "body-parse": "^0.1.0",
     "ejs": "^2.6.1",
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "mongodb": "^3.1.8"
   },
   "devDependencies": {
     "nodemon": "^1.18.5"
